@@ -1,0 +1,18 @@
+[package]
+name = "jsonish"
+version = "0.1.0"
+edition = "2021"
+
+# [lints.rust]
+# dead_code = "allow"
+# elided_named_lifetimes = "deny"
+# unused_imports = "allow"
+# unused_variables = "allow"
+
+[dependencies]
+serde.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+log = "0.4.20"
+regex.workspace = true
+test-log = "0.2.16"
