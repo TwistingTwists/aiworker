@@ -28,13 +28,19 @@ serde_json = { version = "1", features = ["float_roundtrip", "preserve_order"] }
 regex = "1.10.4"
 indexmap = "2.0.0"
 
-tokio = { version = "1.43.0", features = ["fs", "macros"] }
+tokio = { version = "1.43.0", features = ["full"] }
 tokio-stream = "0.1.17"
 tokio-util = { version = "0.7.13", features = ["codec", "io-util"] }
 
 
 eventsource-stream = "0.2.3"
 reqwest-eventsource = "0.6.0"
+
+#
+# workspace member crates
+#
+json_partial = {path = "./jsonwithpartial"}
+common = {path = "./common"}
 
 [profile.dev]
 lto = false

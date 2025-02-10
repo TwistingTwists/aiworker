@@ -1,5 +1,5 @@
 [package]
-name = "jsonish"
+name = "json_partial"
 version = "0.1.0"
 edition = "2021"
 
