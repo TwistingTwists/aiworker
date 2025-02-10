@@ -35,6 +35,7 @@ tokio-util = { version = "0.7.13", features = ["codec", "io-util"] }
 
 eventsource-stream = "0.2.3"
 reqwest-eventsource = "0.6.0"
+schemars = "0.8.12"
 
 #
 # workspace member crates
